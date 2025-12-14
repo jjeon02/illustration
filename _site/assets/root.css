@@ -1,0 +1,10 @@
+:root {
+  --background-color: #fff;
+  --text-color: #1a1e1e;
+  --top-gradient: linear-gradient(180deg, #E2F9FF 0%, rgba(226, 249, 255, 0) 100%);
+  --bottom-gradient: linear-gradient(180deg, #fff 0%, #E2F9FF 100%);
+  --skyblue-light: #E2F9FF;
+  --pink: #F584C8;
+  --light-pink: #FFDEF2;
+  --white: #fff;
+}

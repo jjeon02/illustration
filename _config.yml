@@ -1,0 +1,15 @@
+title: "Your Name"
+description: "Illustration portfolio"
+url: "https://YOUR_GITHUB_USERNAME.github.io"
+
+# If this is a PROJECT site (username.github.io/repo-name), set baseurl to "/repo-name"
+# If this is a USER site (username.github.io), set baseurl to ""
+baseurl: ""
+
+markdown: kramdown
+permalink: pretty
+
+collections:
+  works:
+    output: true
+    permalink: /works/:slug/

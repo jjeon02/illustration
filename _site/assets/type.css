@@ -1,0 +1,9 @@
+
+/*FONT*/
+h1{font-size: 1.6em;line-height:160%;font-weight: 500;margin:0;padding:0;}
+h2{font-size: 1.4em;line-height:160%;font-weight: 300;margin:0;padding:0;}
+p{font-size: 1.2em;line-height:160%;font-weight:300;margin:0;padding:0;}
+
+a{color: var(--text-color);}
+a:hover{color: var(--pink); -webkit-transition: color 0.1s;}
+a::after{color: var(--text-color);}
