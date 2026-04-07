@@ -1,0 +1,27 @@
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, button{
+    margin:0;padding:0;
+}
+
+/* SIZE SETUP */
+h1{font-size: var(--font-size-xxl);}
+h2{font-size: var(--font-size-xl);}
+h5{font-size: var(--font-size-lg);}
+h6, p, ul, ol, li, button{font-size: var(--font-size-md);}
+
+/* WEIGHT SETUP */
+h1,h2{font-weight: var(--font-weight-xl);}
+h5,h6{font-weight: var(--font-weight-lg);}
+p, ul, ol, li, button{font-weight: var(--font-weight-md);}
+
+a:link, a:visited, a:active{
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--color-blue);
+}
+
+ul, ol{
+   list-style-position: inside;
+}

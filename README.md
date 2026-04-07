@@ -1,3 +1,1 @@
-# Jueun Jeon's Art
-
-Artworks done by Jueun Jeon
+Jueun Jeon's Art Space

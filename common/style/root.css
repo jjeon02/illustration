@@ -1,0 +1,50 @@
+:root {
+    /* COLORS */
+    --color-white: #ffffff;
+    --color-bg: #b2bac1;
+    --color-text: #23262d;
+    --color-blue: #2c2ff4;
+    --color-border: #6c7481;
+
+    /* RADIUS */
+    --radius-sm: 4px;
+    --radius-md: 6px;
+    --radius-lg: 8px;
+
+    /* SPACE */
+    --space-3xs: 2px;
+    --space-xxs: 4px;
+    --space-xs: 6px;
+    --space-sm: 8px;
+    --space-md: 16px;
+    --space-section: 20px;
+    --space-lg: 24px;
+    --space-xl: 32px;
+    --max-width: 720px;
+
+    /* FONT */
+    --font-size-md: 1.16rem;
+    --font-size-lg: 1.24rem;
+    --font-size-xl: 1.32rem;
+    --font-size-xxl: 1.6rem;
+
+    --line-height-sm: 1.2;
+    --line-height-md: 1.6;
+
+    --font-weight-md: 400;
+    --font-weight-lg: 500;
+    --font-weight-xl: 600;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans KR", sans-serif;
+    background: var(--color-bg);
+}
+
+*::selection{
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+*::-webkit-scrollbar{display:none;}

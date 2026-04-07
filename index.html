@@ -1,23 +1,75 @@
----
-layout: default
-title: Gallery
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jueun Jeon's Artspace</title>
+    <link rel="stylesheet" href="common/style/root.css">
+    <link rel="stylesheet" href="common/style/section.css">
+    <link rel="stylesheet" href="common/style/type.css">
+</head>
+<body>
+    <nav id="site-nav"></nav>
+    <div class="main-container">
 
-<section class="layer-blur">
-    <h1>
-      Jueun Jeon's artworks. 
-    </h1>
-</section>
+        <!-- DESC -->
+        <div class="header" id="site-header"></div>
+        
+        <!-- PROJECTS -->
+        <div class="main">
+            <div class="project-title"><h2>Artworks</h2></div>
+            <div class="project-wrapper">
+                <div class="project">
+                    <div class="project-image"></div>
+                    <div class="project-desc">
+                        <h2>CAT</h2>
+                        <p>Illustration cover for Sci-Fi Novel, "Everybody Saw a Cat."</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image"></div>
+                    <div class="project-desc">
+                        <h2>Dragon Lore</h2>
+                        <p>Illustrations with a blue dragon theme.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image"></div>
+                    <div class="project-desc">
+                        <h2>Wing Obsession</h2>
+                        <p>Illustrations with winged creatures with religious tones.</p>
+                    </div>      
+                </div>
+                <div class="project">
+                    <div class="project-image"></div>
+                    <div class="project-desc">
+                        <h2>Other Illustrations</h2>
+                        <p>Various illustrations and digital art pieces that are my own.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image"></div>
+                    <div class="project-desc">
+                        <h2>Real Life</h2>
+                        <p>Art based on real life landscape and objects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="contact-mobile">
+            <h6>Contact Me</h6>
+            <p>june.jeon@gmail.com</p>
+            <p><a href="https://www.linkedin.com/in/jueun-jeon/" target="_blank">Linkedin</a></p>
+            <p><a href="https://www.instagram.com/jooooooonjeon_art/" target="_blank">Instagram</a></p>
+        </div>
+
+    </div>
+    
 
 
-<section>
-  <div class="grid-four">
-  {% assign works_sorted = site.works | sort: "order" %}
-  {% for work in works_sorted %}
-    <a class="card" href="{{ work.url | relative_url }}">
-      <img src="{{ work.image | relative_url }}" alt="{{ work.title }}">
-      <div class="card-title">{{ work.title }}</div>
-    </a>
-  {% endfor %}
-</div>
-</section>
+    <script src="common/nav.js"></script>
+    <script src="common/header.js"></script>
+</body>
+</html>
